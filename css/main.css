@@ -17,11 +17,6 @@ a {
 /*    border: 1px solid blue;*/
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 .mainHeader {
     display: flex;
     justify-content: space-between;
