@@ -17,6 +17,11 @@ a {
 /*    border: 1px solid blue;*/
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 .mainHeader {
     display: flex;
     justify-content: space-between;
@@ -144,7 +149,7 @@ a {
 
 .textOne {
     width: 320px;
-    height: 190px;
+    min-height: 190px;
     margin: auto;
     text-align: center;
     color: #fff;
@@ -153,4 +158,173 @@ a {
 
 .textOne h2, .textOne p {
     padding: 2px;
+}
+
+.features {
+    display: flex;
+    width: 1200px;
+    background-color: #fff;
+}
+
+.featuresBox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 330px;
+    text-align: center;
+    background-color: #fff;
+    margin: auto;
+}
+
+.featuresBox h3 {
+    font-size: 21px;
+}
+
+.featuresBox p {
+    font-size: 14px;
+    color: #333333
+}
+
+.featuresBox img, 
+.featuresBox h3, 
+.featuresBox p {
+    margin: auto;
+}
+
+.lockSize {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 262px;
+    height: 214px;
+}
+
+.lastFeatures {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    height: 256px;
+    background-color: #eeeeee;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lastFeatures section {
+    min-width: 330px;
+    height: 192px;
+    margin: auto;
+}
+
+.lastFeatures h3 {
+    font-size: 26px;
+}
+
+.lastFeatures p {
+    font-size: 18px;
+    color: #333333;
+}
+
+.interested {
+    display: flex;
+    width: 1200px;
+    height: 290px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.intoInter {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 576px;
+    height: 291px;
+}
+
+.intoText {
+    width: 444px;
+    height: 108px;
+    margin: auto;
+}
+
+.intoText h3 {
+    font-size: 30px;
+}
+
+.intoText p {
+    font-size: 16px;
+    margin-top: -16px;
+    color: #333333;
+}
+
+.searchHotels {
+    display: flex;
+    margin-top: auto;
+    width: 568px;
+    height: 86px;
+    background-color: #766357;
+}
+
+.searchHotels p {
+    margin: auto;
+    font-size: 21px;
+}
+
+.map {
+    display: flex;
+    background: url("../img/map.png") no-repeat;
+    width: 1200px;
+    height: 594px;
+    border-top: 4px solid #766357;
+}
+
+.mainFooter {
+    display: flex;
+    width: 1200px;
+    height: 120px;
+    margin-top: auto;
+    background-color: #fff;
+    opacity: 0.9;
+}
+
+.lockFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 980px;
+    height: 70px;
+    align-items: center;
+}
+
+.hashtag p {
+    font-size: 24px;
+    
+}
+
+.bl {
+    display: flex;
+    background-color: #81b3d2;
+    color: #fff;
+}
+
+.bl p {
+    margin: auto;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials a {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+
+.socials a:hover {
+    border: 1px solid #fff;
+    transition: all 0.1s;
+}
+
+.socials a:last-child {
+    margin-right: 0;
 }
